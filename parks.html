@@ -1,50 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Michigan Parks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una mirada al entrenamiento, la paciencia y la constancia en el camino de Gohan.">
+  <title>Entrenamiento | Archivo Gohan</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <a class="skip-link" lang="es" href="#main-content">Saltar al contenido principal</a>
-  <header>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a class="wordmark" href="index.html" aria-label="Archivo Gohan, inicio">
+        <span class="wordmark__seal" aria-hidden="true">悟</span>
+        <span><span class="wordmark__eyebrow">ARCHIVO VISUAL</span><span class="wordmark__name">Gohan / Saiyajin</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">El viaje</a></li>
+        <li><a href="neighborhood.html">Galería</a></li>
+        <li><a aria-current="page" href="parks.html">Entrenamiento</a></li>
       </ul>
-      <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
     </nav>
-    <h1>Michigan Parks</h1>
-
-  </header>
-  <main id="main-content">
-    <div class="flex">
-      <img src="images/bacon_in_the_woods.png" alt="brown labradoodle sitting near a stream in a wooded setting"
-        width="100">
-      <img src="images/bacon_near_the_fort.png"
-        alt="brown labradoodle posing in front of a makeshift fort made of branches" width="100">
-      <img src="images/downed_tree.png" alt="a downed tree crossign a stream" width="100">
-      <img src="images/fort_in_woods.png" alt="a small fort made of branches" width="100">
-      <img src="images/huron_river_cascades.JPG" alt=" two people on a kayak approaching some small rapids" width="100">
-      <img src="images/lake_view.JPG" alt="a glimpse of a child running along a lake obscured by branches" width="100">
-      <img src="images/mist_over_huron_river.JPG" alt="the mist rising over a river in the morning" width="100">
-      <img src="images/munising.jpg" alt="small waterfall" width="100">
-      <img src="images/reflected_tree.JPG" alt="reflection of a lake and trees" width="100">
-
+    <div class="masthead masthead--compact">
+      <p class="eyebrow">Dossier 03 / Práctica</p>
+      <h1>Volver a levantarse</h1>
+      <p class="masthead__lead">El poder no aparece de la nada: se construye con paciencia, atención y ganas de seguir.</p>
     </div>
+  </header>
 
+  <main id="contenido" class="page-shell">
+    <section class="training-feature" aria-labelledby="practice-title">
+      <figure class="training-portrait">
+        <img src="resources/gohan06.jpeg" alt="Gohan de pie, con la mirada baja y el cuerpo listo para entrenar." fetchpriority="high">
+        <figcaption>Estudio 06 — Enfoque</figcaption>
+      </figure>
+      <div class="training-copy">
+        <p class="eyebrow eyebrow--dark">La práctica diaria</p>
+        <h2 id="practice-title">Antes de la explosión, está la calma.</h2>
+        <p>Entrenar también es aprender a observar: reconocer los propios límites, recuperar el aliento y elegir intentarlo otra vez.</p>
+        <blockquote>«La constancia convierte el esfuerzo en camino.»</blockquote>
+        <a class="action-link" href="neighborhood.html">Ver las ocho láminas <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="practice-section" aria-labelledby="practice-steps-title">
+      <div class="section-heading">
+        <p class="eyebrow eyebrow--dark">Notas de campo</p>
+        <h2 id="practice-steps-title">Cuatro gestos del entrenamiento</h2>
+      </div>
+      <div class="training-strip">
+        <figure class="training-card">
+          <img src="resources/gohan07.jpeg" alt="Guerrero de cabello oscuro enfocado en una escena azul." loading="lazy">
+          <figcaption><span>01</span> Enfocar</figcaption>
+        </figure>
+        <figure class="training-card">
+          <img src="resources/gohan02.jpeg" alt="Guerrero de cabello azul con una expresión segura." loading="lazy">
+          <figcaption><span>02</span> Decidir</figcaption>
+        </figure>
+        <figure class="training-card">
+          <img src="resources/gohan04.jpeg" alt="Guerrero de cabello dorado iluminado por tonos anaranjados." loading="lazy">
+          <figcaption><span>03</span> Avanzar</figcaption>
+        </figure>
+        <figure class="training-card">
+          <img src="resources/gohan08.jpeg" alt="Gohan extiende los brazos hacia el cielo abierto." loading="lazy">
+          <figcaption><span>04</span> Respirar</figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
-  <footer>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Students are invited to make changes.</p>
+
+  <footer class="site-footer">
+    <p>Archivo Gohan <span aria-hidden="true">•</span> Una colección visual hecha para explorar.</p>
+    <a href="#contenido">Volver arriba ↑</a>
   </footer>
-
 </body>
-
 </html>
